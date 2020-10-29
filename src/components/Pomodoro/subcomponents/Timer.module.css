@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sansita+Swashed:wght@300&display=swap");
+
+.container {
+  font-family: "Roboto", sans-serif;
+  color: #00334e;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid #ee6f57;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-size: 300%;
+}

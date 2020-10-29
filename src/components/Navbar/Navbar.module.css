@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sansita+Swashed:wght@300&display=swap");
+
+.root{
+    width: 100%;
+}
+
+.nav{
+    background-color: #00334e !important;
+}
+
+.navLinkContainer{
+    display: flex;
+    margin-left: 80%;
+}
+
+.navLink{
+    color: #ee6f57;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.navLink:hover{
+    color: #ee6f57;
+    border: 2px solid #ee6f57;
+    transition: 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navLink:active{
+    color: #ee6f57;
+  }
+
+  .navHeading{
+      font-family: 'Sansita Swashed', cursive !important;
+  }
