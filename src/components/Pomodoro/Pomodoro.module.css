@@ -2,22 +2,49 @@
   display: flex;
   flex-direction: column;
   justify-content: start;
-  width: 520px;
-  min-height: 600px;
-  background: #161a2b;
   text-align: center;
   margin: 128px auto;
   border-radius: 10px;
   padding-bottom: 32px;
 }
 
+.timer{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  text-align: center;
+}
+
 .makeChanges{
   color: #fff;
-  display: grid;
   font-size: 1.5rem;
 }
 
+.changeButtons{
+  background: #161a2b ;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.changeButtons:hover{
+  color: rgba(155, 0, 250, 1);
+}
+
+.row{
+  display: flex;
+  flex-direction: row !important;
+  justify-content: center;
+  text-align: center;
+}
+
 .item{
+  margin:0.5rem 1rem;
+}
+
+p{
   margin:1rem;
 }
 
@@ -42,118 +69,26 @@ h4{
   color: #fff;
   text-transform: capitalize;
 }
-/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sansita+Swashed:wght@300&display=swap");
 
-.heading {
-    color: #00334e;
+@media (max-width: 768px){
+  h4{
+    margin: 10% 0;
+    color: #fff;
+    font-size: 4rem;
   }
 
-.container{
-    font-family: "Roboto", sans-serif;
-    justify-content: center;
-    align-items: center;
-
-}
-.gridContainer {
-    display: grid;
-    grid-template-columns: 3.5rem 3.5rem 3.5rem 3.5rem 0.5rem 0.5rem 3.5rem 3.5rem 3.5rem 3.5rem;
-    grid-template-rows: 3.5rem 3.5rem;
-    justify-content: center;
-    
-  }
-  .gridItemHeading{
-    grid-column: span 5;
+  .container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .gridItemLeft{
-    border-radius: 1.5rem 0 0 1.5rem;
-  }
-  
-  .gridItemRight{
-  border-radius:  0 1.5rem 1.5rem 0;
-  }
-  
-  .gridItemLeft,
-  .gridItemRight{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid thin #ee6f57;
-  }
-  
-  .gridItemMiddle{
-    grid-column: span 2;
+    flex-direction: column;
+    justify-content: start;
     text-align: center;
+    margin: 3rem;
+    border-radius: 10px;
+    max-height: 500px;;
+  }
+
+  .buttons{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid thin #ee6f57;
+    flex-direction: row;
   }
-
-  .timerContainer {
-    font-family: "Roboto", sans-serif;
-    color: #00334e;
-    text-align: center;
-    width: 20rem;
-    height: 20rem;
-    border: 5px solid #ee6f57;
-    border-radius: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    font-size: 300%;
-    margin-left: 3.5rem;
-  }
-
-  .icon{
-    color: #145374;
-    border: 2px solid transparent;
-    border-radius: 2rem;
-    background-color: #f6f5f5;
-  }
-
-  .icon:hover,
-  .icon:active{
-    color: #ee6f57;
-    border: 2px solid #ee6f57;
-    transition: 0.3s ease;
-  }
-
-  .icon:focus {
-    outline: none !important;
-    outline-offset: none !important;
 }
-
-/* Play and Puase buttons */
-/* .myButton {
-	background-color:#ee7057;
-	border-radius:28px;
-	border:1px solid #ee7057;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:17px;
-	padding:16px 31px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #ee7057;
-  margin: 1rem;
-}
-.myButton:hover {
-  background-color:#f04628;
-  color:#ffffff;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
-
-.btn{
-    justify-content: center;
-    align-items: center;
-    margin-left: 6.5rem;
-}  */

@@ -164,3 +164,38 @@ h1 {
 .edit-icon {
   color: #fff;
 }
+
+@media (max-width: 768px){
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .todo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    min-height: 100px;
+    background: #161a2b;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+  }
+
+  .todo-input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid #5d0cff;
+    outline: none;
+    width: 50%;
+    background: transparent;
+    color: #fff;
+  }
+
+  .pomodoro{
+    width: 100%;
+  }
+
+}
